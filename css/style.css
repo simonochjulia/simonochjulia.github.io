@@ -225,7 +225,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-counter,
-#fh5co-event,
+#fh5co-wedding,
 .fh5co-bg {
   background-size: cover;
   background-position: top center;
@@ -356,24 +356,24 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-counter,
-#fh5co-event {
+#fh5co-wedding {
   height: 850px;
   float: left;
 }
 #fh5co-counter .display-t,
 #fh5co-counter .display-tc,
-#fh5co-event .display-t,
-#fh5co-event .display-tc {
+#fh5co-wedding .display-t,
+#fh5co-wedding .display-tc {
   height: 700px;
   display: table;
   width: 100%;
 }
 #fh5co-counter .fh5co-heading h2,
-#fh5co-event .fh5co-heading h2 {
+#fh5co-wedding .fh5co-heading h2 {
   color: #646464;
 }
 #fh5co-counter .fh5co-heading span,
-#fh5co-event .fh5co-heading span {
+#fh5co-wedding .fh5co-heading span {
   color: rgb(0, 0, 0);
   text-transform: uppercase;
   font-size: 13px;
@@ -381,7 +381,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: 600;
 }
 #fh5co-counter .overlay,
-#fh5co-event .overlay {
+#fh5co-wedding .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -391,19 +391,19 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   #fh5co-counter,
-  #fh5co-event {
+  #fh5co-wedding {
     height: inherit;
     padding: 7em 0;
   }
   #fh5co-counter .display-t,
   #fh5co-counter .display-tc,
-  #fh5co-event .display-t,
-  #fh5co-event .display-tc {
+  #fh5co-wedding .display-t,
+  #fh5co-wedding .display-tc {
     height: inherit;
   }
 }
 #fh5co-counter .event-wrap,
-#fh5co-event .event-wrap {
+#fh5co-wedding .event-wrap {
   border: 2px solid rgba(0, 0, 0, 0.5);
   padding: 30px;
   width: 100%;
@@ -415,12 +415,12 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   #fh5co-counter .event-wrap,
-  #fh5co-event .event-wrap {
+  #fh5co-wedding .event-wrap {
     margin-bottom: 10px;
   }
 }
 #fh5co-counter .event-wrap h3,
-#fh5co-event .event-wrap h3 {
+#fh5co-wedding .event-wrap h3 {
   font-size: 14px;
   color: #000000;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
@@ -432,20 +432,20 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 25px;
 }
 #fh5co-counter .event-wrap p, #fh5co-counter .event-wrap span,
-#fh5co-event .event-wrap p,
-#fh5co-event .event-wrap span {
+#fh5co-wedding .event-wrap p,
+#fh5co-wedding .event-wrap span {
   display: block;
   color: rgba(0, 0, 0, 0.8);
   font-family: Sofia Sans Condensed;
   font-size: 20px;
 }
 #fh5co-counter .event-wrap i,
-#fh5co-event .event-wrap i {
+#fh5co-wedding .event-wrap i {
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
 #fh5co-counter .event-wrap .event-col,
-#fh5co-event .event-wrap .event-col {
+#fh5co-wedding .event-wrap .event-col {
   width: 50%;
   float: left;
   margin-bottom: 30px;
@@ -636,7 +636,7 @@ h1, h2, h3, h4, h5, h6, figure {
     right: auto;
   }
 }
-#fh5co-gallery-list {
+#fh5co-journey-list {
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
@@ -651,7 +651,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   width: 100%;
 }
-#fh5co-gallery-list li {
+#fh5co-journey-list li {
   display: block;
   padding: 0;
   margin: 0 0 10px 1%;
@@ -669,18 +669,18 @@ h1, h2, h3, h4, h5, h6, figure {
   border-radius: 7px;
 }
 @media screen and (max-width: 480px) {
-  #fh5co-gallery-list li {
+  #fh5co-journey-list li {
     margin-left: 0;
   }
 }
-#fh5co-gallery-list li a {
+#fh5co-journey-list li a {
   min-height: 400px;
   padding: 2em;
   position: relative;
   width: 100%;
   display: block;
 }
-#fh5co-gallery-list li a:before {
+#fh5co-journey-list li a:before {
   position: absolute;
   top: 0;
   left: 0;
@@ -697,10 +697,10 @@ h1, h2, h3, h4, h5, h6, figure {
   border-radius: 7px;
   background: rgba(0, 0, 0, 0.2);
 }
-#fh5co-gallery-list li a:hover:before {
+#fh5co-journey-list li a:hover:before {
   background: rgba(0, 0, 0, 0.5);
 }
-#fh5co-gallery-list li a .case-studies-summary {
+#fh5co-journey-list li a .case-studies-summary {
   width: auto;
   bottom: 2em;
   left: 2em;
@@ -709,37 +709,37 @@ h1, h2, h3, h4, h5, h6, figure {
   z-index: 100;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-gallery-list li a .case-studies-summary {
+  #fh5co-journey-list li a .case-studies-summary {
     bottom: 1em;
     left: 1em;
     right: 1em;
   }
 }
-#fh5co-gallery-list li a .case-studies-summary span {
+#fh5co-journey-list li a .case-studies-summary span {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 13px;
   color: rgba(255, 255, 255, 0.7);
 }
-#fh5co-gallery-list li a .case-studies-summary h2 {
+#fh5co-journey-list li a .case-studies-summary h2 {
   color: #fff;
   margin-bottom: 0;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-gallery-list li a .case-studies-summary h2 {
+  #fh5co-journey-list li a .case-studies-summary h2 {
     font-size: 20px;
   }
 }
-#fh5co-gallery-list li.one-third {
+#fh5co-journey-list li.one-third {
   width: 32.3%;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-gallery-list li.one-third {
+  #fh5co-journey-list li.one-third {
     width: 49%;
   }
 }
 @media screen and (max-width: 480px) {
-  #fh5co-gallery-list li.one-third {
+  #fh5co-journey-list li.one-third {
     width: 100%;
   }
 }
@@ -951,26 +951,26 @@ form label {
 
 
 #fh5co-testimonial,
-#fh5co-services,
+#fh5co-info,
 #fh5co-started,
 #fh5co-footer,
-#fh5co-event,
+#fh5co-wedding,
 #fh5co-couple-story,
 #fh5co-couple,
-#fh5co-gallery,
+#fh5co-journey,
 .fh5co-section {
   padding: 7em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
   #fh5co-testimonial,
-  #fh5co-services,
+  #fh5co-info,
   #fh5co-started,
   #fh5co-footer,
-  #fh5co-event,
+  #fh5co-wedding,
   #fh5co-couple-story,
   #fh5co-couple,
-  #fh5co-gallery,
+  #fh5co-journey,
   .fh5co-section {
     padding: 3em 0;
   }

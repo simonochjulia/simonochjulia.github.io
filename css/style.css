@@ -1799,9 +1799,9 @@ form label {
 
 .map-responsive{
   overflow:hidden;
-  padding-bottom:55.1%;
+  padding-bottom:66.6667%; /*57.25% / 63%*/
   position:relative;
-  height:0;
+  height:100%;
 }
 
 .map-responsive iframe{

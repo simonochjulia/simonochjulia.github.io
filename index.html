@@ -11,7 +11,7 @@
 	<title>Simon ❤️ Julia - 17.08.2024</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description"
-		content="We are getting married - The date is 17th of August '24 and we would like you to be a part of it." />
+		content="Vi gifter oss - Datumet är 17:e Augusti och vi vill gärna att ni är en del av vår dag." />
 	<meta name="keywords" content="simon,julia,wedding,website,rsvp" />
 	<meta name="author" content="Simon & Julia" />
 
@@ -24,20 +24,21 @@
 	<!-- Size of image. Any size up to 300. Anything above 300px will not work in WhatsApp -->
 	<meta property="og:image:width" content="300">
 	<meta property="og:image:height" content="300">
-	<!-- Website to visit when clicked in fb or WhatsApp-->
+	<!-- Website to visit when clicked in fb or WhatsApp -->
 	<meta property="og:url" content="https://simonochjulia.github.io">
 	<meta property="og:type" content="website" />
 	<meta property="og:image:type" content="image/jpeg">
 
-
+	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,700,700i" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Engagement" rel="stylesheet">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia+Sans+Condensed" rel="stylesheet">
 
-	<!-- clock   -->
+	<!-- Clock -->
 	<link rel="stylesheet" href="css/responsive-clock.css">
+	<!-- Flipclock -->
 	<link rel="stylesheet" href="css/flip.min.css">
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
@@ -48,14 +49,11 @@
 	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.css'>
 	<!-- Magnific Popup -->
 	<link rel="stylesheet" href="css/magnific-popup.css">
-
 	<!-- Owl Carousel  -->
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
-
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -63,38 +61,74 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- clock -->
+	<script src="js/clock.js"></script>
+	<!-- Flipclock -->
+	<script src="js/flip.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- countTo -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Flipclock countTo -->
+	<script src='https://momentjs.com/downloads/moment.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.14/moment-timezone-with-data-2012-2022.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.js'></script>
+	<!-- Stellar -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Prism -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script>
+	<script src="js/simplyCountdown.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
 </head>
 
+
+
+<!---- BEGINNING OF BODY ---->
+
+
+
 <body>
-
 	<div class="fh5co-loader"></div>
-
 	<div id="page">
+
+		<!-- SECTION: Navigation bar -->
 		<nav class="fh5co-nav" role="navigation">
 			<div class="container">
 				<div class="row">
-
 					<div class="text-center menu-1">
 						<ul>
-							<li class="inactive"><a href="index.html">Hem</a></li>
+							<li class="active"><a href="index.html">Välkommen</a></li>
 							<li class="active"><a href="#fh5co-journey">Vår resa</a></li>
 							<li class="active"><a href="#fh5co-wedding">Bröllopet</a></li>
-							<li class="inactive"><a href="#fh5co-toastmasters">Toastmasters</a></li>
-							<li class="inactive"><a href="#fh5co-wishlist">Önskelista</a></li>
-							<li class="active"><a href="#fh5co-info">Info</a></li>
+							<li class="active"><a href="#fh5co-info">Information</a></li>
+							<li class="active"><a href="#fh5co-wishlist">Önskelista</a></li>
+							<li class="active"><a href="#fh5co-rsvp">O.S.A</a></li>
 						</ul>
 					</div>
 				</div>
-
 			</div>
 		</nav>
 
+		<!-- SECTION: Header -->
 		<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/bg.jpg);"
 			data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row">
 					<div class="text-center" style="align-items: center;">
+						<!-- Title -->
 						<div class="display-t">
 							<div class="display-tc animate-box" data-animate-effect="fadeIn">
 								<h1>Simon &amp; Julia</h1>
@@ -103,107 +137,103 @@
 								<h2>17.08.2024</h2>
 								<h2>"How on earth are you ever going to explain in terms of chemistry and physics so
 									important a biological phenomenon as first love?" <br>- Albert Einstein</h2>
-								<!-- 							<div class="flipTimebox">
-											<div class="clock clock-fix"></div>
-										</div> -->
-								<!-- <p><a href="#fh5co-wedding" class="btn btn-default btn-sm">Dela vår dag</a></p> -->
+								<br>
+								<p><a href="#fh5co-wedding" class="btn btn-default btn-sm">Dela vår dag</a></p>
+								<br>
 							</div>
 						</div>
-					</div>
-			
-					<div class="tick" data-did-init="handleTickInit">
-						<div data-repeat="true" data-layout="horizontal fit" data-transform="preset(d, h, m, s) -> delay">
-							<div class="tick-group">
-								<div data-key="value" data-repeat="true" data-transform="pad(00) -> split -> delay">
-									<span data-view="flip"></span>
+						<!-- Flip countdown -->
+						<div class="tick-onended-message" style="display:none;">
+							<p>Tid till bröllopet</p>
+						</div>
+						<div class="tick" data-did-init="handleTickInit">
+							<div data-repeat="true" data-layout="horizontal center" data-transform="preset(d, h, m, s) -> delay">
+								<div class="tick-group">
+									<div data-key="value" data-layout="horizontal center" data-repeat="true"
+										data-transform="pad(00) -> split -> delay">
+										<span data-view="flip"></span>
+									</div>
+									<span data-key="label" data-view="text" class="tick-label"></span>
 								</div>
-								<span data-key="label" data-view="text" class="tick-label"></span>
 							</div>
 						</div>
+						<!-- Countdown handler -->
+						<script>
+							function handleTickInit(tick) {
+								// uncomment to set labels to different language
+								var locale = {
+									YEAR_PLURAL: 'År',
+									YEAR_SINGULAR: 'År',
+									MONTH_PLURAL: 'Månader',
+									MONTH_SINGULAR: 'Månad',
+									WEEK_PLURAL: 'Veckor',
+									WEEK_SINGULAR: 'Vecka',
+									DAY_PLURAL: 'Dagar',
+									DAY_SINGULAR: 'Dag',
+									HOUR_PLURAL: 'Timmar',
+									HOUR_SINGULAR: 'Timme',
+									MINUTE_PLURAL: 'Minuter',
+									MINUTE_SINGULAR: 'Minut',
+									SECOND_PLURAL: 'Sekunder',
+									SECOND_SINGULAR: 'Sekund',
+									MILLISECOND_PLURAL: 'Millisekunder',
+									MILLISECOND_SINGULAR: 'Millisekund'
+								};
+
+								for (var key in locale) {
+									if (!locale.hasOwnProperty(key)) { continue; }
+									tick.setConstant(key, locale[key]);
+								}
+
+								// format of due date is ISO8601
+								// https://en.wikipedia.org/wiki/ISO_8601
+								// '2018-01-31T12:00:00'        to count down to the 31st of January 2018 at 12 o'clock
+								// '2019'                       to count down to 2019
+								// '2018-01-15T10:00:00+01:00'  to count down to the 15th of January 2018 at 10 o'clock in timezone GMT+1
+
+								// create the countdown counter
+								var counter = Tick.count.down('2024-08-17T15:00:00+01:00');
+
+								counter.onupdate = function (value) {
+									tick.value = value;
+								};
+
+								counter.onended = function () {
+									// redirect, uncomment the next line
+									// window.location = 'my-location.html'
+									// show message, uncomment the next line
+
+									// hide counter, uncomment the next line
+									// tick.root.style.display = 'none';
+
+									// document.querySelector('.tick-onended-message').style.display = '';
+								};
+							}
+						</script>
 					</div>
-					
-								<script>
-									function handleTickInit(tick) {
-
-										// uncomment to set labels to different language
-
-										var locale = {
-											YEAR_PLURAL: 'År',
-											YEAR_SINGULAR: 'År',
-											MONTH_PLURAL: 'Månader',
-											MONTH_SINGULAR: 'Månad',
-											WEEK_PLURAL: 'Veckor',
-											WEEK_SINGULAR: 'Vecka',
-											DAY_PLURAL: 'Dagar',
-											DAY_SINGULAR: 'Dag',
-											HOUR_PLURAL: 'Timmar',
-											HOUR_SINGULAR: 'Timme',
-											MINUTE_PLURAL: 'Minuter',
-											MINUTE_SINGULAR: 'Minut',
-											SECOND_PLURAL: 'Sekunder',
-											SECOND_SINGULAR: 'Sekund',
-											MILLISECOND_PLURAL: 'Millisekunder',
-											MILLISECOND_SINGULAR: 'Millisekund'
-										};
-
-										for (var key in locale) {
-											if (!locale.hasOwnProperty(key)) { continue; }
-											tick.setConstant(key, locale[key]);
-										}
-
-
-										// format of due date is ISO8601
-										// https://en.wikipedia.org/wiki/ISO_8601
-
-										// '2018-01-31T12:00:00'        to count down to the 31st of January 2018 at 12 o'clock
-										// '2019'                       to count down to 2019
-										// '2018-01-15T10:00:00+01:00'  to count down to the 15th of January 2018 at 10 o'clock in timezone GMT+1
-
-										// create the countdown counter
-										var counter = Tick.count.down('2024-08-17T15:00:00+01:00');
-
-										counter.onupdate = function (value) {
-											tick.value = value;
-										};
-
-										counter.onended = function () {
-											// redirect, uncomment the next line
-											// window.location = 'my-location.html'
-											// show message, uncomment the next line
-
-											// hide counter, uncomment the next line
-											// tick.root.style.display = 'none';
-
-											// document.querySelector('.tick-onended-message').style.display = '';
-										};
-									}
-								</script>
-								
-								<div class="tick-onended-message" style="display:none">
-									<p>Tid som gifta</p>
-								</div>
 				</div>
-			</div>
 		</header>
 
-		<div id="fh5co-journey" class="fh5co-section-gray">
+		<!-- SECTION: Journey -->
+		<div id="fh5co-journey" class="fh5co-bg">
 			<div class="container">
+				<!-- Title -->
 				<div class="row">
 					<div class="col-md-12 text-center fh5co-heading animate-box">
 						<h2>Vår resa</h2>
 					</div>
 				</div>
-				<div class="row row-bottom-padded-md">
+				<!-- Pictures -->
+				<div class="row">
 					<div class="col-md-12">
 						<ul id="fh5co-journey-list">
 							<li class="one-third animate-box" data-animate-effect="fadeIn"
-								style="background-image: url(images/JS2.JPG); ">
+								style="background-image: url(images/JS0.JPG); ">
 								<a href="images/JS2.JPG">
 									<div class="case-studies-summary">
 									</div>
 								</a>
 							</li>
-
 							<li class="one-third animate-box" data-animate-effect="fadeIn"
 								style="background-image: url(images/JS7.jpeg); ">
 								<a href="images/JS7.jpeg">
@@ -211,7 +241,6 @@
 									</div>
 								</a>
 							</li>
-
 							<li class="one-third animate-box" data-animate-effect="fadeIn"
 								style="background-image: url(images/JS3.JPG); ">
 								<a href="images/JS3.JPG">
@@ -219,28 +248,58 @@
 									</div>
 								</a>
 							</li>
-
 						</ul>
+					</div>
+				</div>
+				<!-- Text -->
+				<div class="row justify-content-center">
+					<div class="text-center" style="padding-left: 10%; padding-right: 10%" ;">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra est eget eros pulvinar, at
+							posuere felis
+							lobortis. Praesent vitae commodo purus. Quisque sit amet arcu imperdiet nisi malesuada euismod.
+							Etiam nisi
+							justo, efficitur a libero vel, molestie vehicula justo. Vivamus ut libero purus. Duis nulla sapien,
+							laoreet sit
+							amet pellentesque id, vehicula ac nibh. Maecenas vulputate dapibus scelerisque. Morbi viverra
+							interdum
+							facilisis. Pellentesque facilisis pellentesque nisl quis tincidunt. </p>
+						<p>
+							Pellentesque commodo dui ac enim faucibus convallis. Aenean ac ornare leo. Aliquam ultrices ultrices
+							rutrum.
+							Nulla vitae ligula ac mi tempor pulvinar.
+							Vestibulum in suscipit odio. Sed sagittis vehicula enim, vitae scelerisque velit fringilla
+							pellentesque. Nulla
+							tincidunt nulla ut diam ullamcorper, condimentum iaculis lacus pellentesque. </p>
+						<p>
+							Fusce vestibulum feugiat lorem. Etiam vestibulum feugiat lacus fermentum convallis. Quisque et odio
+							consequat
+							libero gravida aliquet sed id augue. Vestibulum ante ipsum primis in faucibus orci luctus et
+							ultrices posuere
+							cubilia curae; Pellentesque laoreet nec justo at pharetra. In sagittis, nisl vel lobortis sodales,
+							nulla quam
+							consequat nulla, vitae accumsan erat dui et ante. Maecenas in viverra ante. </p>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div id="fh5co-wedding" class="fh5co-bg">
-			<div class="overlay"></div>
+		<!-- SECTION: Wedding -->
+		<div id="fh5co-wedding" class="fh5co-wedding">
 			<div class="container">
+				<!-- Title -->
 				<div class="row">
 					<div class="col-md-12 text-center fh5co-heading animate-box">
-						<h2>Bröllop</h2>
+						<h2>Bröllopet</h2>
 					</div>
 				</div>
-				<div class="row">
+				<!-- Content-boxes -->
+				<div class="row flex-fill">
 					<div class="display-t">
 						<div class="display-tc">
 							<div class="col-md-12">
-
+								<!-- Wedding box -->
 								<div class="col-md-6 col-sm-6 text-center">
-									<div class="event-wrap animate-box">
+									<div class="event-wrap animate-box" style="padding-bottom: 18.19px;">
 										<h3>Vigsel</h3>
 										<div class="event-col">
 											<i class="icon-calendar"></i>
@@ -251,15 +310,16 @@
 											<span>13:00</span>
 										</div>
 										<p>Vigseln sker utanför <b>Magasinet</b></p>
-											<div class="map-responsive iframe">
-												<iframe
-													src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1769.8037529657936!2d15.74057005899545!3d58.26978918616025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTjCsDE2JzExLjUiTiAxNcKwNDQnMzIuMCJF!5e1!3m2!1ssv!2sse!4v1706460459800!5m2!1ssv!2sse" defer
-													width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-													referrerpolicy="no-referrer-when-downgrade"></iframe>
-											</div>
+										<!-- Embedded Google Map (Edit padding-bottom to match box heights) -->
+										<div class="map-responsive iframe">
+											<iframe
+												src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1769.8037529657936!2d15.74057005899545!3d58.26978918616025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTjCsDE2JzExLjUiTiAxNcKwNDQnMzIuMCJF!5e1!3m2!1ssv!2sse!4v1706460459800!5m2!1ssv!2sse"
+												defer allowfullscreen="" loading="lazy"
+												referrerpolicy="no-referrer-when-downgrade"></iframe>
+										</div>
 									</div>
 								</div>
-
+								<!-- Party box -->
 								<div class="col-md-6 col-sm-6 text-center">
 									<div class="event-wrap animate-box">
 										<h3>Fest</h3>
@@ -272,22 +332,25 @@
 											<span>01:00</span>
 										</div>
 										<p>Festen sker i <b>Magasinet, Bjärka-Säby</b></p>
-
+										<!-- Slideshow with venue pictures -->
 										<div class="container">
-										  <div class="spacer"></div>
-										  <div class="content">
-											<div class="owl-demo">  
-											  <div class="item"><img class="image-fluid" src="images/BS1.jpg" width="100%" height="100%" alt="Owl Image"></div>
-											  <div class="item"><img class="image-fluid" src="images/BS2.jpg" width="100%" height="100%" alt="Owl Image"></div>
-											  <div class="item"><img class="image-fluid" src="images/BS3.jpg" width="100%" height="100%" alt="Owl Image"></div>
+											<div class="spacer"></div>
+											<div class="content">
+												<div class="owl-demo">
+													<div class="item"><img class="image-fluid" src="images/BS1.jpg" width="100%"
+															height="100%" alt="Owl Image">
+													</div>
+													<div class="item"><img class="image-fluid" src="images/BS2.jpg" width="100%"
+															height="100%" alt="Owl Image">
+													</div>
+													<div class="item"><img class="image-fluid" src="images/BS3.jpg" width="100%"
+															height="100%" alt="Owl Image">
+													</div>
+												</div>
 											</div>
-										  </div>
 										</div>
-<!-- 											<img class="img-fluid" src="images/BSX.jpg" alt="Not found..." width="100%" height="100%">
- -->									</div>
-									
+									</div>
 								</div>
-								
 							</div>
 						</div>
 					</div>
@@ -295,9 +358,10 @@
 			</div>
 		</div>
 
-		<div id="fh5co-info" class="fh5co-section-gray">
+		<!-- SECTION: Information (TODO) -->
+		<div id="fh5co-info" class="fh5co-bg">
 			<div class="container">
-
+		
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 						<h2>Information</h2>
@@ -310,44 +374,22 @@
 					</div>
 				</div>
 			</div>
-
 		</div>
-	</div>
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+
+		<!-- GitHub footer -->
+		<div id="fh5co-info" class="fh5co-bg">
+			<center>
+				View Source Code on <a href="https://github.com/simonochjulia/simonochjulia.github.io">GitHub <img src="images/github-logo.png"> </a> 
+			</center>
+		</div>
+
+		<!-- Scroll-to-top arrow -->
+		<div class="gototop js-top">
+			<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+		</div>
+
 	</div>
 
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- clock -->
-	<script src="js/clock.js"></script>
-	<script src="js/flip.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- countTo -->
-	<script src="js/jquery.countTo.js"></script>
-	<script src='https://momentjs.com/downloads/moment.js'></script>
-	<script
-		src='https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.14/moment-timezone-with-data-2012-2022.min.js'></script>
-	<script src='https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.js'></script>
-	<!-- Stellar -->
-	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
-
-	<!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
-	<script src="js/simplyCountdown.js"></script>
-	<!-- Main -->
-	<script src="js/main.js"></script>
-	<center>View Source Code on <a href="https://github.com/simonochjulia/simonochjulia.github.io">GitHub <img
-				src="images/github-logo.png"> </a> </center>
 </body>
 
 </html>

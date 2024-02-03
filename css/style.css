@@ -230,6 +230,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-position: top center;
   background-repeat: no-repeat;
   position: relative;
+  width: 100%;
 }
 
 .fh5co-bg {
@@ -388,7 +389,8 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   background: rgba(0, 0, 0, 0.04);
 }
-@media screen and (max-width: 768px) {
+/*EDITED*/
+@media screen {
   #fh5co-counter,
   #fh5co-wedding {
     height: inherit;
@@ -412,7 +414,8 @@ h1, h2, h3, h4, h5, h6, figure {
   -ms-border-radius: 4px;
   border-radius: 4px;
 }
-@media screen and (max-width: 768px) {
+/*EDITED*/
+@media screen {
   #fh5co-counter .event-wrap,
   #fh5co-wedding .event-wrap {
     margin-bottom: 10px;
@@ -940,11 +943,7 @@ form label {
   /* The countdown */
   margin-bottom: 2em;
   margin-top: 2em;
-
-
 }
-
-
 
 #fh5co-testimonial,
 #fh5co-info,
@@ -956,7 +955,35 @@ form label {
 #fh5co-journey,
 .fh5co-section {
   padding: 7em 0;
+  padding-bottom: 0px;
   clear: both;
+}
+/* EDITED */
+@media screen and (max-width: 5000px) {
+  #fh5co-testimonial,
+  #fh5co-info,
+  #fh5co-started,
+  #fh5co-footer,
+  #fh5co-wedding,
+  #fh5co-couple-story,
+  #fh5co-couple,
+  #fh5co-journey,
+  .fh5co-section {
+    padding: 3em 25vw;
+  }
+}
+@media screen and (max-width: 2500px) {
+  #fh5co-testimonial,
+  #fh5co-info,
+  #fh5co-started,
+  #fh5co-footer,
+  #fh5co-wedding,
+  #fh5co-couple-story,
+  #fh5co-couple,
+  #fh5co-journey,
+  .fh5co-section {
+    padding: 3em 15vw;
+  }
 }
 @media screen and (max-width: 768px) {
   #fh5co-testimonial,
@@ -1799,16 +1826,17 @@ form label {
 
 .map-responsive{
   overflow:hidden;
-  padding-bottom:66.6667%; /*57.25% / 63%*/
+  padding-bottom:66.6667%;
   position:relative;
+  width:100;
   height:100%;
 }
 
 .map-responsive iframe{
   left:0;
   top:0;
-  height:100%;
   width:100%;
+  height:100%;
   position:absolute;
 }
 

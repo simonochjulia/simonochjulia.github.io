@@ -306,7 +306,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 // #fh5co-header,
 // #fh5co-counter,
-// #fh5co-wedding,
+// #fh5co-event,
 // .fh5co-bg {
 // 	background-size: cover;
 // 	background-position: top center;
@@ -314,7 +314,7 @@ h1, h2, h3, h4, h5, h6, figure {
 // 	position: relative;
 // }
 #fh5co-counter,
-#fh5co-wedding,
+#fh5co-event,
 .fh5co-bg {
 	background-size: cover;
 	background-position: top center;
@@ -433,7 +433,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-counter,
-#fh5co-wedding {
+#fh5co-event {
 	height: 850px;
 	float: left;
 	.display-t,
@@ -686,7 +686,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 
 // GALLERY
-#fh5co-journey-list {
+#fh5co-gallery-list {
 	@include flexwrap;
 	@include flex;
 	position: relative;
@@ -1002,13 +1002,13 @@ form {
 }
 
 #fh5co-testimonial,
-#fh5co-info,
+#fh5co-services,
 #fh5co-started,
 #fh5co-footer,
-#fh5co-wedding,
+#fh5co-event,
 #fh5co-couple-story,
 #fh5co-couple,
-#fh5co-journey,
+#fh5co-gallery,
 .fh5co-section {
 	padding: 7em 0;
 	clear: both;

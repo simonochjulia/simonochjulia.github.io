@@ -389,7 +389,7 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   background: rgba(0, 0, 0, 0.04);
 }
-/*EDITED*/
+/* EDITED */
 @media screen {
   #fh5co-counter,
   #fh5co-wedding {
@@ -880,6 +880,27 @@ form label {
     font-size: 16px;
   }
 }
+/* EDITED */
+#fh5co-header .display-tc img,
+#fh5co-counter .display-tc img,
+.fh5co-cover .display-tc img {
+  width: 228px;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-header .display-tc img,
+  #fh5co-counter .display-tc img,
+  .fh5co-cover .display-tc img {
+    width: 152px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #fh5co-header .display-tc img,
+  #fh5co-counter .display-tc img,
+  .fh5co-cover .display-tc img {
+    width: 114px;
+  }
+}
+/* EDITED */
 #fh5co-header .display-tc .btn,
 #fh5co-counter .display-tc .btn,
 .fh5co-cover .display-tc .btn {
@@ -890,6 +911,22 @@ form label {
   font-size: 16px;
   font-family: Sofia Sans Condensed;
   text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-header .display-tc .btn,
+  #fh5co-counter .display-tc .btn,
+  .fh5co-cover .display-tc .btn {
+    padding: 15px 15px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #fh5co-header .display-tc .btn,
+  #fh5co-counter .display-tc .btn,
+  .fh5co-cover .display-tc .btn {
+    padding: 10px 10px;
+    font-size: 12px;
+  }
 }
 #fh5co-header .display-tc .btn:hover,
 #fh5co-counter .display-tc .btn:hover,
@@ -1841,4 +1878,3 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
-

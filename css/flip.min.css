@@ -423,9 +423,30 @@
   font-size:1rem; white-space:nowrap; font-family:arial,sans-serif;
 }
 
+/* EDITED */
 .tick-flip,.tick-text-inline {
   font-size:5em;
 }
+@media screen and (max-width: 768px) {
+   .tick-flip,.tick-text-inline {
+      font-size:4em;
+   }
+ }
+ @media screen and (max-width: 480px) {
+   .tick-flip,.tick-text-inline {
+      font-size:3em;
+   }
+ }
+ @media screen and (max-width: 430px) {
+   .tick-flip,.tick-text-inline {
+      font-size:2em;
+   }
+ }
+ @media screen and (max-width: 370px) {
+   .tick-flip,.tick-text-inline {
+      font-size:1em;
+   }
+ }
 
 .tick-label {
   margin-top:1em;font-size:1em;font-family:'Lucida Console';

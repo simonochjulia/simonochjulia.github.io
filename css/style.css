@@ -5,7 +5,8 @@
   font-weight: normal;
   font-style: normal;
 }
-@font-face { font-family: Amsterdam; src: url('../fonts/AmsterdamOne.ttf'); } 
+@font-face { font-family: Amsterdam; src: url('../fonts/AmsterdamOne.ttf'); }
+@font-face { font-family: Ephesis; src: url('../fonts/EphesisRegular.ttf'); } 
 /* =======================================================
 *
 * 	Template Style 
@@ -856,41 +857,51 @@ form label {
   padding: 0;
   color: white;
 }
+/* EDITED */
 #fh5co-header .display-tc h1,
 #fh5co-counter .display-tc h1,
 .fh5co-cover .display-tc h1 {
   margin-bottom: 0px;
-  font-size: 65px;
-  line-height: 1.5;
-  font-family: "Amsterdam", Arial, serif;
+  font-size: 130px; /* 65px; */
+  line-height: 0.75; /* 1.5; */
+  font-family: "Ephesis", Arial, serif;
 }
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h1,
   #fh5co-counter .display-tc h1,
   .fh5co-cover .display-tc h1 {
-    font-size: 40px;
+    font-size: 80px; /* 40px; */
   }
 }
 @media screen and (max-width: 480px) {
   #fh5co-header .display-tc h1,
   #fh5co-counter .display-tc h1,
   .fh5co-cover .display-tc h1 {
-    font-size: 30px;
+    font-size: 60px; /* 30px; */
   }
 }
+/* EDITED */
 #fh5co-header .display-tc h2,
 #fh5co-counter .display-tc h2,
 .fh5co-cover .display-tc h2 {
-  font-size: 20px;
+  font-size: 26px;
   line-height: 1.5;
   margin-top: 20px;
-  font-family: Engagement;
+  font-family: Ephesis; /* Engagement; */
+  /* font-weight: bold; */
+}
+@media screen and (max-width: 768px) {
+  #fh5co-header .display-tc h2,
+  #fh5co-counter .display-tc h2,
+  .fh5co-cover .display-tc h2 {
+    font-size: 22px;
+  }
 }
 @media screen and (max-width: 480px) {
   #fh5co-header .display-tc h2,
   #fh5co-counter .display-tc h2,
   .fh5co-cover .display-tc h2 {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 /* EDITED */
@@ -1019,6 +1030,19 @@ form label {
   #fh5co-contact,
   #fh5co-journey,
   .fh5co-section {
+    padding: 3em 30vw;
+  }
+}
+@media screen and (max-width: 3000px) {
+  #fh5co-information,
+  #fh5co-services,
+  #fh5co-started,
+  #fh5co-footer,
+  #fh5co-wedding,
+  #fh5co-wishlist,
+  #fh5co-contact,
+  #fh5co-journey,
+  .fh5co-section {
     padding: 3em 25vw;
   }
 }
@@ -1032,7 +1056,46 @@ form label {
   #fh5co-contact,
   #fh5co-journey,
   .fh5co-section {
+    padding: 3em 20vw;
+  }
+}
+@media screen and (max-width: 2000px) {
+  #fh5co-information,
+  #fh5co-services,
+  #fh5co-started,
+  #fh5co-footer,
+  #fh5co-wedding,
+  #fh5co-wishlist,
+  #fh5co-contact,
+  #fh5co-journey,
+  .fh5co-section {
     padding: 3em 15vw;
+  }
+}
+@media screen and (max-width: 1500px) {
+  #fh5co-information,
+  #fh5co-services,
+  #fh5co-started,
+  #fh5co-footer,
+  #fh5co-wedding,
+  #fh5co-wishlist,
+  #fh5co-contact,
+  #fh5co-journey,
+  .fh5co-section {
+    padding: 3em 10vw;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #fh5co-information,
+  #fh5co-services,
+  #fh5co-started,
+  #fh5co-footer,
+  #fh5co-wedding,
+  #fh5co-wishlist,
+  #fh5co-contact,
+  #fh5co-journey,
+  .fh5co-section {
+    padding: 3em 5vw;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1045,7 +1108,7 @@ form label {
   #fh5co-contact,
   #fh5co-journey,
   .fh5co-section {
-    padding: 3em 0;
+    padding: 3em 0vw;
   }
 }
 
@@ -1097,10 +1160,11 @@ form label {
     width: 100%;
   }
 }
+/* EDITED */
 .couple-half h3 {
-  font-family: "Amsterdam", Arial, serif;
+  font-family: "Ephesis", Arial, serif;
   color: #646464;
-  font-size: 30px;
+  font-size: 60px; /* 30px; */
 }
 .couple-half .groom, .couple-half .bride {
   float: left;
@@ -1209,17 +1273,18 @@ form label {
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;
 }
+/* EDITED */
 .fh5co-heading h2 {
-  font-size: 60px;
-  margin-bottom: 10px;
-  line-height: 1.5;
-  font-weight: bold;
+  font-size: 120px; /* 60px; */
+  margin-bottom: 0px; /* 10px; */
+  line-height: 0.75; /* 1.5; */
+  /* font-weight: bold; */
   color: #646464;
-  font-family: "Amsterdam", Arial, serif;
+  font-family: "Ephesis", Arial, serif;
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
-    font-size: 40px;
+    font-size: 80px; /* 40px; */
   }
 }
 .fh5co-heading p {

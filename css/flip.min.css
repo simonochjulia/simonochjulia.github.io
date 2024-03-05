@@ -429,22 +429,22 @@
 }
 @media screen and (max-width: 768px) {
    .tick-flip,.tick-text-inline {
-      font-size:4em;
+      font-size:3em;
+   }
+ }
+ @media screen and (max-width: 600px) {
+   .tick-flip,.tick-text-inline {
+      font-size:2.3em;
    }
  }
  @media screen and (max-width: 480px) {
    .tick-flip,.tick-text-inline {
-      font-size:3em;
+      font-size:1.5em;
    }
  }
  @media screen and (max-width: 430px) {
    .tick-flip,.tick-text-inline {
-      font-size:2em;
-   }
- }
- @media screen and (max-width: 370px) {
-   .tick-flip,.tick-text-inline {
-      font-size:1em;
+      font-size:0.7em;
    }
  }
 
@@ -484,8 +484,9 @@ body {
    color: #fff !important; 
 }
 
+/* EDITED */
 .tick-flip {
-   font-family:Haettenschweiler !important; 
+   font-family:icomoon !important; 
 }
 
 .tick-flip-panel-text-wrapper {

@@ -429,25 +429,26 @@
 }
 @media screen and (max-width: 768px) {
    .tick-flip,.tick-text-inline {
-      font-size:3em;
+      font-size:4em;
    }
  }
  @media screen and (max-width: 600px) {
    .tick-flip,.tick-text-inline {
-      font-size:2.3em;
+      font-size:2em;
    }
  }
  @media screen and (max-width: 480px) {
    .tick-flip,.tick-text-inline {
-      font-size:1.5em;
+      font-size:1em;
    }
  }
  @media screen and (max-width: 430px) {
    .tick-flip,.tick-text-inline {
-      font-size:0.7em;
+      font-size:0.5em;
    }
  }
 
+ /* EDITED */
 .tick-label {
   margin-top:1em;font-size:1em;font-family:'Lucida Console';
 }
@@ -486,7 +487,7 @@ body {
 
 /* EDITED */
 .tick-flip {
-   font-family:icomoon !important; 
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important; 
 }
 
 .tick-flip-panel-text-wrapper {

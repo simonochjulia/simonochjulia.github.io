@@ -73,6 +73,11 @@ h1, h2, h4, h5, h6, figure {
 }
 
 /* EDITED */
+li:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+/* EDITED */
 h3 {
   font-size: 14px;
   color: #000000;
